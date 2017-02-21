@@ -4,7 +4,7 @@ Coding challenge for potential Juicers. Applicants need to complete the followin
 ## Task Description
 You are asked to create a simple web application which imports data from a CSV file uploaded by the user. The CSV file will contain rows of transactions and each transaction has these columns: date, category and spend.
 
-1. There is an example of the CSV file named `transactions.csv` included in this repo which you should use for testing. Note that there should always be a header line and the order of the columns is not guranteed.
+1. There is an example of the CSV file named `transactions.csv` included in this repo which you should use for testing. Note that there should always be a header line and the order of the columns is not guranteed. Some data are malformed and you are expected to parse them correctly.
 1. Upon uploading the file, your app should display a table or a list of total spend per category.
 1. Provide a search box for the user. When the user enters characters in the search box, the results should update by searching for transactions with categories partially matching the entered text. You may provide a button to trigger the search action.
 
