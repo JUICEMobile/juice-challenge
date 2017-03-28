@@ -4,7 +4,10 @@ Coding challenge for potential Juicers. Applicants need to complete the followin
 ## Task Description
 You are asked to create a simple web application which imports data from a CSV file uploaded by the user. The CSV file will contain rows of transactions and each transaction has these columns: date, category and spend.
 
-1. There is an example of the CSV file named `transactions.csv` included in this repo which you should use for testing. Note that there should always be a header line and the order of the columns is not guaranteed. Not all data are formatted consistently and you are expected to parse them correctly.  All rows are parseable using the capabilities associated with the Python programming language.
+1. There is an example of the CSV file named `transactions.csv` included in this repo which you should use for testing. Note that there should always be a header line and the order of the columns is not guaranteed. Not all data are formatted consistently and you are expected to parse them correctly.  All rows are parseable using the capabilities associated with the Python programming language.  The final format of each row should be as follows:
+Date should be formatted as "YYYY/MM/DD" and should successfully cast to a date data type.
+Category should cast to valid string.
+Spend should be formatted as a floating point number with two degrees of specificity beyond the decimal point.
 
 2. Upon uploading the file, your app should display a table or a list of total spend per category.
 
